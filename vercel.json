@@ -10,5 +10,11 @@
       "source": "/",
       "destination": "https://github.com/anuraghazra/github-readme-stats"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    }
   ]
 }
